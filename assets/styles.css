@@ -1,0 +1,522 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  font-size: 1.8rem;
+}
+
+/* -----------------------------------
+SECTION 1
+----------------------------------- */
+.section1--container {
+  /* height: 94vh; */
+  background-color: hsl(193, 100%, 96%);
+  background-image: url(images/bg-hero-desktop.svg);
+  background-size: cover;
+  padding: 6rem 10rem;
+}
+
+.section1--header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section1--logo {
+  padding: 1rem 0;
+}
+
+/* Button (Try It Free) */
+.section1--btn {
+  color: hsl(192, 100%, 9%);
+  font-size: 1.8rem;
+  font-weight: 700;
+  padding: 1.8rem 8rem;
+  background-color: #fff;
+  border: none;
+  border-radius: 100px;
+  box-shadow: 0 0 10px 2px rgba(128, 141, 153, 0.3);
+  cursor: pointer;
+  transition: 0.2s all;
+}
+
+.section1--btn:hover {
+  color: hsl(208, 11%, 55%);
+  box-shadow: 0 0 10px 4px rgba(128, 141, 153, 0.4);
+}
+/* -------------------- */
+
+.section1--info-container {
+  display: grid;
+  grid-template-columns: 1.4fr 2fr;
+  gap: 8rem;
+  margin-top: 6rem;
+  height: 60rem;
+}
+
+.section1--info-wrap {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  gap: 4rem;
+}
+
+.section1--info-header {
+  font-family: "Poppins", sans-serif;
+  color: hsl(192, 100%, 9%);
+  font-weight: 600;
+  font-size: 5rem;
+}
+
+.section1--info {
+  color: hsl(192, 100%, 9%);
+  font-weight: 400;
+  font-size: 2.2rem;
+}
+
+/* Button (Get Started For Free) */
+.section1--getstarted-btn {
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.8rem;
+  background-color: hsl(322, 100%, 66%);
+  width: 34rem;
+  padding: 2.6rem 0;
+  border: none;
+  border-radius: 100px;
+  cursor: pointer;
+  transition: 0.2s all;
+}
+
+.section1--getstarted-btn:hover {
+  background-color: rgba(255, 82, 192, 0.6);
+}
+/* -------------------- */
+
+.section1--info-img {
+  background-image: url(images/illustration-mockups.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/* -----------------------------------
+SECTION 2
+----------------------------------- */
+.section2--container {
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+  margin: 20rem 12rem;
+  position: relative;
+}
+
+.section2--content-container {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  gap: 10rem;
+  padding: 6rem 6rem 6rem 15rem;
+  border-radius: 15px;
+  box-shadow: 0 0 6px 2px rgba(128, 141, 153, 0.1);
+}
+
+.section2--content-container img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.section2--info-wrap {
+  margin: auto;
+}
+
+.section2--headings {
+  color: hsl(192, 100%, 9%);
+  font-family: "Poppins", sans-serif;
+  font-size: 4rem;
+  font-weight: 600;
+}
+
+.section2--info {
+  color: hsl(208, 11%, 55%);
+  font-size: 2.4rem;
+  font-weight: 400;
+  margin-top: 2rem;
+}
+
+.grid-col-revers {
+  grid-template-columns: 2fr 3fr;
+}
+
+.section2--btn-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4rem;
+  align-self: center;
+  background-color: #fff;
+  padding: 6rem 10rem;
+  border-radius: 14px;
+  box-shadow: 0 0 6px 2px rgba(128, 141, 153, 0.1);
+  position: absolute;
+  bottom: -46rem;
+}
+
+.section2--btn-p {
+  color: hsl(192, 100%, 9%);
+  text-align: center;
+  font-size: 3.6rem;
+  font-weight: 700;
+}
+
+.section2--btn {
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.8rem;
+  background-color: hsl(322, 100%, 66%);
+  width: 34rem;
+  padding: 2.6rem 0;
+  border: none;
+  border-radius: 100px;
+  cursor: pointer;
+  transition: 0.2s all;
+}
+
+.section2--btn:hover {
+  background-color: rgba(255, 82, 192, 0.6);
+}
+
+/* -----------------------------------
+FOOTER
+----------------------------------- */
+
+footer {
+  background-color: hsl(192, 100%, 9%);
+  padding: 20rem 10rem 6rem 10rem;
+  margin-top: 38rem;
+}
+
+.footer--content-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  grid-gap: 8rem;
+  margin-top: 4rem;
+}
+
+.footer--address-container {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.footer--address-container > div {
+  display: flex;
+  gap: 1.8rem;
+}
+
+.footer--address {
+  display: flex;
+}
+
+.footer--address img {
+  height: 32px;
+  width: 32px;
+}
+
+.footer--address address {
+  color: hsl(193, 100%, 96%);
+  max-width: 38rem;
+}
+
+.footer--phone a {
+  color: hsl(193, 100%, 96%);
+  text-decoration: none;
+}
+
+.footer--phone a:hover {
+  text-decoration: underline;
+}
+
+.footer--email a {
+  color: hsl(193, 100%, 96%);
+  text-decoration: none;
+}
+
+.footer--email a:hover {
+  text-decoration: underline;
+  transition: all 10s;
+}
+
+.footer--links {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.footer--links a {
+  color: hsl(193, 100%, 96%);
+  text-decoration: none;
+}
+
+.footer--links a:hover {
+  text-decoration: underline;
+}
+
+.footer--social {
+  display: flex;
+  gap: 1rem;
+}
+
+.social {
+  border: 1px solid hsl(193, 100%, 96%);
+  padding: 0.7rem;
+  border-radius: 100%;
+}
+
+.social:hover {
+  fill: hsl(322, 100%, 66%);
+  border: 1px solid hsl(322, 100%, 66%);
+  transition: all 0.3s;
+}
+
+.footer--copyright {
+  color: hsl(193, 100%, 96%);
+  font-size: 1.2rem;
+  margin-top: 3rem;
+  text-align: end;
+}
+
+@media only screen and (max-width: 1060px) {
+  /* -----------------------------------
+  SECTION 1
+  ----------------------------------- */
+
+  .section1--info-header {
+    font-size: 4rem;
+  }
+
+  /* -----------------------------------
+  SECTION 2
+  ----------------------------------- */
+
+  .section2--content-container {
+    gap: 6rem;
+    padding: 5rem 5rem 5rem 13rem;
+  }
+
+  .section2--headings {
+    font-size: 3rem;
+  }
+
+  .section2--info {
+    font-size: 2rem;
+  }
+
+  .section2--btn-p {
+    font-size: 3.2rem;
+  }
+}
+
+@media only screen and (max-width: 840px) {
+  /* -----------------------------------
+  SECTION 1
+  ----------------------------------- */
+
+  .section1--info-header {
+    font-size: 3rem;
+  }
+
+  .section1--info {
+    font-size: 1.8rem;
+  }
+
+  /* Button (Get Started For Free) */
+  .section1--getstarted-btn {
+    font-size: 1.4rem;
+    width: 28rem;
+    padding: 2.4rem 0;
+  }
+  /* -------------------- */
+
+  /* -----------------------------------
+  SECTION 2
+  ----------------------------------- */
+
+  .section2--content-container {
+    gap: 4rem;
+    padding: 3rem 3rem 3rem 9rem;
+  }
+
+  .section2--headings {
+    font-size: 2.6rem;
+  }
+
+  .section2--info {
+    font-size: 1.8rem;
+  }
+
+  .section2--btn-block {
+    gap: 3rem;
+    padding: 4rem 6rem;
+  }
+
+  .section2--btn-p {
+    font-size: 2.4rem;
+  }
+
+  .section2--btn {
+    font-size: 1.6rem;
+    width: 28rem;
+    padding: 2.6rem 0;
+  }
+
+  /* -----------------------------------
+  FOOTER
+  ----------------------------------- */
+}
+
+@media only screen and (max-width: 375px) {
+  /* -----------------------------------
+  SECTION 1
+  ----------------------------------- */
+  .section1--container {
+    background-image: url(images/bg-hero-mobile.svg);
+    background-size: cover;
+    padding: 1.6rem 1.4rem;
+  }
+
+  .section1--logo {
+    width: 30%;
+    height: 100%;
+  }
+
+  /* Button (Try It Free) */
+  .section1--btn {
+    font-size: 1.2rem;
+    padding: 1rem 3.6rem;
+  }
+  /* -------------------- */
+
+  .section1--info-container {
+    grid-template-columns: 1fr;
+    padding: 0 2rem;
+    gap: 6rem;
+    margin-top: 6rem;
+    height: auto;
+  }
+
+  .section1--info-wrap {
+    gap: 3rem;
+  }
+
+  .section1--info-header {
+    font-size: 2.4rem;
+    text-align: center;
+  }
+
+  .section1--info {
+    font-size: 1.6rem;
+    text-align: center;
+  }
+
+  .section1--info-img {
+    height: 20rem;
+    background-size: cover;
+    margin-bottom: 3rem;
+  }
+
+  /* Button (Get Started For Free) */
+  .section1--getstarted-btn {
+    font-size: 1.2rem;
+    width: 24rem;
+    padding: 1.4rem 0;
+    align-self: center;
+  }
+
+  /* -----------------------------------
+  SECTION 2
+  ----------------------------------- */
+  .section2--container {
+    gap: 4rem;
+    margin: 6rem 2rem;
+  }
+
+  .section2--content-container {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 6rem;
+    padding: 4rem;
+  }
+
+  .section2--headings {
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 600;
+  }
+
+  .section2--info {
+    font-size: 1.4rem;
+    text-align: center;
+    margin-top: 2rem;
+  }
+
+  .grid-col-revers {
+    flex-direction: column;
+  }
+
+  .section2--btn-block {
+    width: 100%;
+    gap: 2.8rem;
+    padding: 4rem 0rem;
+    bottom: -28rem;
+  }
+
+  .section2--btn-p {
+    font-size: 1.6rem;
+  }
+
+  .section2--btn {
+    font-size: 1rem;
+    width: auto;
+    padding: 1.2rem 4.8rem;
+  }
+
+  /* -----------------------------------
+  FOOTER
+  ----------------------------------- */
+
+  footer {
+    padding: 16rem 2rem 6rem 2rem;
+    margin-top: 22rem;
+  }
+
+  .footer--content-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 2.6rem;
+    margin-top: 4rem;
+  }
+
+  .footer--address-container {
+    margin-bottom: 3.8rem;
+  }
+
+  .footer--links {
+    gap: 2.6rem;
+  }
+
+  .footer--social {
+    justify-content: center;
+  }
+
+  .footer--copyright {
+    text-align: center;
+  }
+}
